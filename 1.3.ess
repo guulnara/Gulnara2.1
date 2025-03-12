@@ -3,9 +3,9 @@ new febral_vesoas number
 new febral_not_vesacos
 set febral_vesoas 29
 set febral_not_vesacos 28
-if (febral_not_vesacos<febral_vesoas)
- log string "Весакосный год"
-else 
+if (febral_not_vesacos>febral_vesoas)
  log string "не весакос"
+else 
+ log string "Весакосный год"  
 close 
 finish

@@ -1,0 +1,11 @@
+satrt 
+new febral_vesoas number
+new febral_not_vesacos
+set febral_vesoas 29
+set febral_not_vesacos 28
+if (febral_not_vesacos<febral_vesoas)
+ log string "Весакосный год"
+else 
+ log string "не весакос"
+close 
+finish

@@ -1,0 +1,23 @@
+start
+new a number
+new b number
+new c number
+new d number
+new x number
+set a 20
+set b 15
+set c 10
+set d 5
+set x 17
+if (x>a)
+ log string "x больше"
+if (x>b)
+ log string "x=" >> x >> "больше b=" >> b
+if (x>c)
+ log string "x больше"
+if (x>d)
+ log string "x больше"
+else 
+ log string "меньше всех"
+close
+finish

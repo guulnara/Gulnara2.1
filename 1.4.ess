@@ -1,0 +1,19 @@
+start 
+new AB string
+new BC string
+new CD string
+new AD string
+new one number
+set one 0
+new two number
+set two 1
+set AB "пешком до остановки"
+set BC "ждем автобус 10 минут и от автобуса до остановки кло колледжа"
+set CD "Доходим от остановки до колледжа"
+set AD "Пешком полностью маршрут"
+if (two>one)
+log string AD
+else 
+log string AB >> BC >> CD
+close 
+finish

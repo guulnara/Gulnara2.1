@@ -1,6 +1,6 @@
-satrt 
+start 
 new febral_vesoas number
-new febral_not_vesacos
+new febral_not_vesacos number
 set febral_vesoas 29
 set febral_not_vesacos 28
 if (febral_not_vesacos>febral_vesoas)

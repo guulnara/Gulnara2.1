@@ -1,23 +1,33 @@
 start
 new a number
-new b number
+set a 49
+new b number 
+set b 37
 new c number
+set c 32
 new d number
+set d 24
 new x number
-set a 20
-set b 15
-set c 10
-set d 5
-set x 17
-if (x>a)
- log string "x больше"
-if (x>b)
- log string "x=" >> x >> "больше b=" >> b
-if (x>c)
- log string "x больше"
-if (x>d)
- log string "x больше"
-else 
- log string "меньше всех"
-close
+set x 41
+      if (x>a)
+      log string "x>a>b>c>d"
+      close
+      if (a>x)
+         if (x>b)
+         log string "a>x>b>c>d"
+         close
+      close
+      if (b>x)
+         if (x>c)
+         log string "a>b>x>c>d"
+         close
+      close
+      if (c>x)
+         if (x>d)
+         log string "a>b>c>x>d"
+         close 
+      close
+      if (d>x)
+         log string "a>b>c>d>x"
+      close 
 finish
